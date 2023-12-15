@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container {
+    height: 100vh;
+    background: white;
+}
+.first-sec {
+    height: 725px;
+    background-color: #ffe7ca;
+}
+.main-container .first-sec .logo {
+    color: #FA9F30;
+font-size: 24px;
+font-weight: 700;
+font-family: MADE Tommy Soft;
+width: 20px;
+}
+.first-sec .navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 111px;
+}
+.first-sec .navbar ul li{
+    color: #101010;
+font-size: 18px;
+font-size: 400;
+font-family: MADE Tommy Soft;
+text-decoration: none;
+list-style: none;
+padding-right: 40px;
+cursor: pointer;
+}
+.first-sec .navbar .list-item {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+/* Chrome Extention Btn */
+.first-sec .navbar .btn-exntn {
+    padding-left: 28px;
+     padding-right: 28px;
+      padding-top: 10px;
+       padding-bottom: 10px;
+        background: #FA9F30; 
+        border-radius: 50px; 
+        cursor: pointer;
+        justify-content: center;
+     align-items: center; 
+     gap: 10px;
+      display: inline-flex
+      
+}
+.first-sec .navbar .btn-exntn span{
+    color: #101010;
+font-size: 18px;
+font-weight: 400;
+font-family: MADE Tommy Soft;
+}
+
+/* First Section Heading Cen */
+.first-sec .first-sec-hed {
+    /* background: aliceblue; */
+    width: 53%;
+    height: 190px;
+    margin-left: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    left: -199px;
+    top: 250px;
+}
+.first-sec .first-sec-hed h3 {
+    color: #101010;
+font-size: 56px;
+font-family: MADE Tommy Soft;
+font-weight: 500;
+}
+.first-sec .first-sec-hed p {
+    color: #4F4F4F;
+font-size: 18px;
+font-family: MADE Tommy Soft;
+font-weight: 400;
+line-height: 28px;
+}
+.first-sec .first-sec-hed .search-dwnld {
+    height: 100%;
+    width: 100%;
+    margin-top: 17px;
+    position: relative;
+    top: 0;
+}
+.first-sec .first-sec-hed .search-dwnld input {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    padding: 16px;
+    border: transparent;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15); 
+    border-radius: 50px
+}
+.first-sec .first-sec-hed .search-dwnld button {
+    position: absolute;
+    top: 8px;
+    left: 593px;
+    height: 35px;
+    width: 100px;
+    color: #101010;
+font-size: 16px;
+font-family: MADE Tommy Soft;
+font-weight: 400;
+background-color: #FA9F30;
+border-radius: 50px;
+border: transparent;
+}
+/* TikTok Angle  */
+.first-sec .angle-tik {
+    width: 21%;
+    height: 75%;
+    transform: rotate(27.36deg);
+    transform-origin: 0 0;
+     background: #FFDAAC;
+}
+
+/* Second section Cards */
+.main-container .secd-sec {
+    /* background: aqua; */
+    height: 300px;
+    width: 90%;
+    margin-left: 101px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 570px;
+}
+.main-container .secd-sec .cards {
+display: flex;
+gap: 20px;
+justify-content: center;
+}
+.main-container .secd-sec .cards .card {
+background-color: #ffffff;
+height: 271px;
+    width: 364px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 15px;
+ box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15); 
+ border-radius: 20px
+ 
+}
+.main-container .secd-sec .cards .card p {
+    color: #101010;
+font-size: 24px;
+font-family: MADE Tommy Soft;
+font-weight: 500
+}
+.main-container .secd-sec .cards .card span {
+    color: #4F4F4F;
+    font-size: 18px;
+    font-family: MADE Tommy Soft;
+    font-weight: 400;
+    width: 89%;
+}
+
+/* Third Section */
+.main-container .third-sec {
+    height: 358px;
+    width: 95%;
+    /* background-color: aquamarine; */
+    margin-top: 257px;
+    margin-left: 56px;
+}
+.main-container .third-sec p {
+    color: #101010;
+font-size: 46px;
+font-family: MADE Tommy Soft;
+font-weight: 500;
+padding-bottom: 10px;
+font-weight: bold;
+}
+.main-container .third-sec span {
+    color: #616161;
+font-size: 18px;
+font-family: MADE Tommy Soft;
+font-weight: 400;
+line-height: 28px;
+display: inline-block;
+width: 50%;
+}
+.main-container .third-sec .vactor {
+    background-color: #FFDAAC;
+    height: 259px;
+    width: 251px;
+    position: relative;
+    top: -42%;
+    left: 65%;
+    transform: rotate3d(2, 1, 1, 41deg);
+    border-top-right-radius: 15px;
+}
+.main-container .third-sec .vactor .vactor-firstImg {
+    transform: rotate(-24deg);
+    position: relative;
+    top: 32px;
+    left: 96px;
+}
+.main-container .third-sec .vactor .vactor-firstImg2 {
+    position: relative;
+    top: -75px;
+    left: 56px;
+    transform: rotate(-18deg);
+}
+.main-container .third-sec .vactor .vactor-firstImg3 {
+    position: absolute;
+    top: 10px;
+    left: 11px;
+    height: 180px;
+    transform: rotate(-10deg);
+}
+.main-container .third-sec .vactor .vactor-firstImg4 {
+    position: absolute;
+    top: 210px;
+    left: 5px;
+    height: 84px;
+    transform: rotate(-27deg);
+}
+
+/* 4th half Section feature */ 
+.main-container .forth-sec {
+    /* background-color: aquamarine; */
+    height: 350px;
+    width: 90%;
+    margin-top: 200px;
+    margin-left: 46px;
+    display: flex;
+}
+.main-container .forth-sec .img-sec {
+    /* background-color: #ffe7ca; */
+    height: 350px;
+    width: 40%;
+    position: relative;
+}
+.main-container .forth-sec .img-sec .shuilt-img{
+    position: absolute;
+    top: 135px;
+    left: 27px;
+}
+.main-container .forth-sec .img-sec .shuilt-face-img {
+    position: absolute;
+    left: 101px;
+    top: 28px;
+}
+ .forth-sec .img-sec .hand {
+    position: absolute;
+    top: 176px;
+    left: 235px;
+}
+/* Feature Content */
+.main-container .forth-sec .content-featu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    width: 44%;
+    height: 257px;
+    margin-top: 53px;
+}
+.main-container .forth-sec .content-featu .head {
+    color: #101010;
+font-size: 46px;
+font-family: MADE Tommy Soft;
+font-weight: 500;
+}
+.main-container .forth-sec .content-featu .circle {
+    height: 5px;
+    width: 5px;
+    border-radius: 50px;
+    background-color: #FA9F30;
+}
+.main-container .forth-sec .content-featu .peragrap {
+height: 100%;
+width: 100%;
+}
+.main-container .forth-sec .content-featu .peragrap p{
+    color: #616161;
+font-size: 18px;
+font-family: MADE Tommy Soft;
+font-weight: 400;
+line-height: 38px;
+}
+.main-container .forth-sec .content-featu .peragrap p span {
+    color: #FA9F30;
+font-size: 18px;
+font-family: MADE Tommy Soft;
+font-weight: 500;
+line-height: 38px;
+}
+
+/* Freq Qua Section CSS */
+.main-container .five-sec {
+    /* background-color: aquamarine; */
+    height: 996px;
+    width: 90%;
+    margin-top: 100px;
+    margin-left: 53px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.main-container .five-sec .head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-container .five-sec .head h2 {
+    color: #101010;
+font-size: 46px;
+font-family: MADE Tommy Soft;
+font-weight: 500;
+}
+.main-container .five-sec .head p {
+    color: #4F4F4F;
+font-size: 18px;
+font-family: MADE Tommy Soft;
+font-weight: 400;
+line-height: 28px;
+width: 50%;
+text-align: center;
+}
+.main-container .five-sec .frame {
+    height: 291px;
+    width: 100%;
+    background: #FA9F30;
+     border-radius: 15px;
+     padding: 47px;
+     margin-top: 36px;
+     position: relative;
+}
+.main-container .five-sec .frame .frst-q {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+.main-container .five-sec .frame .frst-q h2{
+    color: #101010;
+font-size: 24px;
+font-family: MADE Tommy Soft;
+font-weight: 500;
+line-height: 28px;
+width: 60%;
+}
+.main-container .five-sec .frame .frst-q p {
+    color: #4D4D4D;
+font-size: 18px;
+font-family: MADE Tommy Soft;
+font-weight: 400;
+line-height: 28px;
+/* width: 60%; */
+}
+/* crose */
+.main-container .five-sec .frame .cros-box {
+    height: 26px;
+    width: 30px;
+    /* background: white; */
+    position: absolute;
+    top: 43px;
+    left: 95%;
+}
+.main-container .five-sec .frame .cros-box .line {
+    height: 23px;
+    width: 5px;
+    background: black;
+    transform: rotate(-44deg);
+    position: relative;
+    left: 11px;
+    top: 2px;
+    border-radius: 2px;
+}
+.main-container .five-sec .frame .cros-box .line2 {
+    height: 23px;
+    width: 5px;
+    background: black;
+    transform: rotate(33deg);
+    position: relative;
+    left: 11px;
+    top: -20px;
+    border-radius: 2px;
+}
+
+/* feq card */
+.main-container .five-sec .cards-feq {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main-container .five-sec .cards-feq .card{
+    height: 107px;
+    width: 100%;
+    background: white;
+     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+      border-radius: 15px;
+      position: relative;
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+}
+.main-container .five-sec .cards-feq .card p {
+    color: #101010;
+font-size: 24px;
+font-family: MADE Tommy Soft;
+font-weight: 500;
+line-height: 28px;
+}
+.five-sec .cards-feq .card .card-lines {
+    /* background: aqua; */
+    height: 26px;
+    width: 32px;
+    cursor: pointer;
+    position: relative;
+}
+.five-sec .cards-feq .card .card-lines .line{
+    height: 25px;
+    width: 4px;
+    background: #101010;
+    transform: rotate(1deg);
+    position: absolute;
+    left: 12px;
+    border-radius: 7px;
+}
+.five-sec .cards-feq .card .card-lines .line2{
+    height: 25px;
+    width: 4px;
+    background: #101010;
+    transform: rotate(89deg);
+    position: absolute;
+    left: 12px;
+    border-radius: 7px;
+}
+
+/* 6th Sectoon footer */
+.main-container footer {
+    background-color: #101010;
+    height: 570px;
+    width: 100%;
+}
+.main-container footer .footer1 {
+    display: flex;
+    gap: 146px;
+    padding: 66px;
+}
+.main-container footer .fot-content {
+    width: 50%;
+}
+.main-container footer .fot-content .foot-logo {
+    color: #FA9F30;
+    font-size: 35px;
+    font-family: MADE Tommy Soft;
+    font-weight: 700;
+    width: 175px;
+}
+.main-container footer .fot-content span {
+    color: white;
+    font-size: 18px;
+    font-family: MADE Tommy Soft;
+    font-weight: 400;
+    line-height: 28px;
+    width: 90%;
+    display: inline-block
+}
+footer .links {
+display: flex;
+gap: 20px;
+}
+footer .links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+footer .links ul p {
+    color: #FA9F30;
+    font-size: 24px;
+    font-family: MADE Tommy Soft;
+    font-weight: 700;
+    width: 175px;
+}
+footer .links ul li {
+    color: white;
+    font-size: 18px;
+    font-family: MADE Tommy Soft;
+    font-weight: 400;
+    list-style: none;
+    text-decoration: none;
+}
+footer .line {
+    /* background: yellow; */
+    height: 0.50px;
+    width: 86%;
+    margin: 44px;
+    border: 1px #FA9F30 solid;
+}
+
+/* footer2 */
+footer .footer2 {
+    display: flex;
+    justify-content: center;
+}
+footer .footer2 p {
+    color: white;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+}
